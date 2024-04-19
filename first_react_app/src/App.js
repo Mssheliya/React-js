@@ -1,7 +1,11 @@
+import {Greet} from "./first";
 
 function App() {
   return (
-      <h1>Wllcome to first React App | Mustafa</h1>
+      <>
+        <Greet />
+        <h1>Wllcome to first React App | Mustafa</h1>
+      </>
   );
 }
 
